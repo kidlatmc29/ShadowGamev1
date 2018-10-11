@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class StartConfig {
 
-	public String setPlayerName(Scanner userInput) {
+	public String setPlayerName(String userInput) {
 		System.out.print("Please enter your name (NOTE: Press enter for the default name): ");
-		String playerName = userInput.nextLine();
+		String playerName = userInput;
 		if (playerName.equals("")) {
 			playerName = "Remi";
 		}
