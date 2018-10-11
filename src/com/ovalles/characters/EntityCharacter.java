@@ -3,6 +3,7 @@ package com.ovalles.characters;
 public class EntityCharacter {
 	private String name;
 	private String human;
+	private boolean isHumanAlive;
 
 	public EntityCharacter(String name, String human) {
 		this.name = name;
