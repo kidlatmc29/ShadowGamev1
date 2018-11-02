@@ -5,4 +5,5 @@ public class HumanCharacter {
 	private String entity; 
 	private boolean isAlive;
 	
+	//testing if git is working from school computer
 }
