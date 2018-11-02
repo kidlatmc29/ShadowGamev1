@@ -5,7 +5,7 @@ public class EntityCharacter {
 	private String human;
 	private boolean isHumanAlive;
 
-	public EntityCharacter(String name, String human) {
+	protected EntityCharacter(String name, String human) {
 		this.name = name;
 		this.human = human;
 	
